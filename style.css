@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background:white;
+    height: 80px;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.heading{
+    margin: 20px 50px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.menus{
+    display: flex;
+    margin-top: 30px ;
+    margin-left: 300px;
+}
+.menu{
+   list-style: none;
+}
+.mname{
+    text-decoration: none;
+    color: #124265;
+    margin-left: 15px;
+    font-size: 20px;
+}
+#header .menus .active{
+    color: #2487ce;
+}
+.mname:hover{
+    color: #2487ce;
+}
+.ddu{
+   background: white;
+   margin: 10px;
+   display: none;
+}
+.menu:hover .ddu{
+   display: block;
+}
+.ddl{
+    margin-top: 5px;
+    list-style: none;
+}
+.dd{
+    text-decoration: none;
+    color: #124265;
+}
+.dd:hover{
+    color: #2487ce;
+}
+.headingdiv{
+    margin-top:30px;
+    margin-left: 60px;
+}
+.btn{
+    text-decoration: none;
+    background: #2487ce;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+#home{
+    background-image: url(../images/bg.jpg);
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.hheading{
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+.homeh{
+    margin-left: 420px;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+.hpara{
+    margin-left: 400px;
+    font-size: 20px;
+    color: #7c7c7c;
+   
+}
+.hparah{
+    margin-left: 580px;
+    color: #7c7c7c;
+    line-height: 30px;
+}
+#home .hdiv{
+    margin-left: 550px;
+    margin-top: 20px;
+}
+#homebox{
+    display: flex;
+    justify-content: space-around;
+}
+.hboxs{
+    border: 1px solid white;
+    height: 200px;
+    width: 200px;
+    background: white;
+    margin-top: 80px;
+    box-shadow: 6px 12px 5px white;
+    border-radius: 10px;
+}
+.hbox1{
+    
+}
+.hbox2{
+
+}
+.hbox3{
+
+}
+.hbox4{
+
+}
+.circle{
+    display: flex;
+}
+
+.bii{
+    display: block;
+    color: #2487ce;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.hometitle{
+    color:  #124265;
+    margin-top: 15px;
+    margin-left: 2ch;
+    font-size: 20px;
+}
+.hometitle:hover{
+    
+}
+.hboxs:hover .hometitle{
+    color: #2487ce;
+}
+.bpara{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #7c7c7c;
+}
+#about{
+    margin-top: 20px;
+}
+.aboutus{
+    margin-left: 500px;
+    font-size: 30px;
+}
+.aboutpara{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.leftrigthdiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutleft{
+    background: white;
+    height: 300px;
+    width: 600px;
+    margin-top: 40px;
+    line-height: 20px;
+}
+.aboutl{
+    list-style: none;
+}
+.icc{
+    margin-top: 40px;
+}
+.ic{
+    display: block;
+    color: #2487ce;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.bicheck{
+    margin-left: 10px;
+    margin-top: 17px;
+}
+.aboutparah1{
+    margin-left: 100px;
+    font-size: 18px;
+}
+.aboutrigth{
+    margin-top: 40px;
+    line-height: 20px;
+    background: white;
+    height: 300px;
+    width: 600px;
+}
+
+.aboutparah{
+    margin-left: 40px;
+    margin-right: 70px;
+    font-size: 18px;
+}
+.aboutbtn{
+    margin-top: 40px;
+    margin-left: 45px;
+}
+#aboutworks{
+    background: #f6fafd;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboxdiv{
+    height: 150px;
+    width: 150px;
+    border: 1px solid  #f6fafd;
+}
+.boxh{
+    margin-top: 50px;
+    color: #2487ce;
+    margin-left: 10px;
+    font-size: 60px;
+}
+.boxspan{
+    color: #7c7c7c;
+    margin-left: 10px;
+}
+/* #aboutdetails{
+    display: flex;
+    justify-content: space-evenly;
+}
+.abt{
+    border: 1px solid red;
+    background: #ffffff;
+    height: 600px;
+    width: 600px;
+}
+.aboutimg{
+    background-image: url(../images/about.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+
+
